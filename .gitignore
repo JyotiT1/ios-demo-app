@@ -1,0 +1,125 @@
+# =========================
+# macOS
+# =========================
+.xcuserstate
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# =========================
+# Xcode
+# =========================
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.moved-aside
+*.hmap
+
+# Xcode User Data
+**/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# =========================
+# iOS Signing / Certificates
+# =========================
+*.p12
+*.pfx
+*.cer
+*.crt
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Local configuration
+*.local
+config.local.*
+secrets.*
+secrets.json
+
+# =========================
+# Node.js / WebdriverIO
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# WebdriverIO
+.wdio/
+wdio-*.log
+logs/
+
+# =========================
+# Test Reports
+# =========================
+allure-results/
+allure-report/
+test-results/
+reports/
+screenshots/
+videos/
+
+# =========================
+# Appium
+# =========================
+.appium/
+appium.log
+
+# =========================
+# IDE
+# =========================
+.idea/
+*.iml
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+coverage/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*.bak
+
+# =========================
+# OS / Editor
+# =========================
+Thumbs.db
+*.orig
+*~
+
