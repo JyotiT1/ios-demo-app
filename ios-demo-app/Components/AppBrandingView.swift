@@ -16,7 +16,7 @@ struct AppBrandingView: View {
                 .multilineTextAlignment(.center)
                 .accessibilityIdentifier("appTitle")
 
-            Text("SDET Mobile Automation Lab")
+            Text("Jyoti - Automation Learning SDET")
                 .font(.subheadline)
                 .foregroundStyle(.blue)
                 .accessibilityIdentifier("appSubtitle")
